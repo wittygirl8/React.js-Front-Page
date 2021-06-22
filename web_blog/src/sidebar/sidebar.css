@@ -1,0 +1,203 @@
+.sidebar{
+    flex: 5;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #f1f1f1!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myNameBox{
+    background-color: black;
+    margin-top: 10px;
+    width: 94%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: "Open Sans";
+    font-size: 10px; 
+    color: white; 
+}
+.myNameheader{
+    margin-top:5%;
+    margin-bottom:2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+.myNamebody{
+    margin-top:2%;
+    margin-bottom:5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px; 
+}
+.sidebarTitle{
+    background-color: black;
+    margin-top: 10px;
+    width: 93%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: "Open Sans";
+    font-size: 10px; 
+    color: white; 
+}
+.sidebarTitleContent{
+    padding-top: 20px;
+    margin-top:10%;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 6px;
+    font-size: 24px;
+}
+*:before, *:after {
+    box-sizing: inherit;
+}
+.sidebarList{
+    background-color: white;
+    border: 1px solid white;
+    margin: 1px;
+    width: 93%;
+    padding-bottom: 5px;
+    padding-top: px;
+    font-family: "Open Sans";
+    font-size: 10px; 
+    color: white; 
+}
+.sidebarListItem{
+    background-color: white;
+    border: 1px solid white;
+    margin: 2px;
+    width: 94%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: "Open Sans";
+    font-size: 10px; 
+    color: black; 
+    flex: 3;
+    display: flex;
+}
+.listContent{
+    font-size:18px!important;
+    color: black;
+    margin-top: 1%;
+    margin-left: 5px;
+}
+.listContentSmall{
+    font-size:12px!important;
+    color: black;
+    margin-top: 7%;
+    margin-left: 2%;
+}
+.adverListItem{
+    background-color: white;
+    border: 1px solid white;
+    margin: 2px;
+    width: 94%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: "Open Sans";
+    font-size: 10px; 
+    color: black; 
+}
+.img{
+    width: 50px;
+    height: 50px;
+    flex: 0;
+    display: flex;
+}
+
+.topLeft{
+    flex: 3;
+    display: flex;
+}
+.topRight{
+    flex: 0.5;
+    display: flex;
+}
+.nameimg{
+    width: 100%;
+}
+.sideImg{
+    flex-direction: row;
+    color: black;
+    width: 50px;
+    height: 50px;
+    margin: 2%;
+    border-radius: 20%;
+    object-fit: cover;
+}
+.adverSpace{
+    width: 100%;
+    height: 100%;
+}
+.mail{
+    border-radius: 5%;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 35%;
+    margin-left: 3%;
+    width: 94%;
+    color: #000!important;
+    background-color: #fff!important;
+    border: none;
+    padding: 10px 16px;
+    overflow: hidden;
+    text-align: left;
+    border-color: #000;
+}
+.subBut{
+    border-radius: 5%;
+    display: block;
+    width: 94%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 35%;
+    margin-left: 3%;
+    width: 94%;
+    color: #fff!important;
+    background-color: #f44336!important;
+    border: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.tag{
+    color: #fff!important;
+    background-color: #000!important;
+    margin: 5px!important;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Open Sans";
+
+}
+.col{
+    color: #fff!important;
+    background-color: white!important;
+    padding: 8px 16px!important;
+    flex: 0;
+    display: flex;
+}
+.Inspimg{
+    width: 25%;
+    margin: 2px;
+}
+.table{
+    color: #000!important;
+    background-color: #fff!important;
+    padding: 0 8px;
+}

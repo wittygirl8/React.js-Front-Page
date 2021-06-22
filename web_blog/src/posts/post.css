@@ -1,0 +1,213 @@
+.posts{
+    flex: 9;
+    color: #000!important;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #f1f1f1!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postTitle{
+    background-color: white;
+    margin-top: 10px;
+    width: 94%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: "Open Sans";
+    font-size: 10px; 
+    color: white; 
+}
+.postItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99.99999%;
+}
+.innercol{
+    color: #000!important;
+    background-color: #fff!important;
+    padding: 12px 24px!important;
+    margin: 16px!important;
+    content: "";
+    display: table;
+    clear: both;
+}
+.center{
+    margin: 3%;
+    text-align: center!important;
+    color: #000!important;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 1.5;
+}
+.Topacity{
+    opacity:0.60;
+    font-size: 15px;
+}
+.w3-justify{
+    text-align: justify!important;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.image{
+    vertical-align: middle;
+    width: 92%;
+    border-style: none;
+    text-align: left!important;
+    color: #000!important;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+.commentimg{
+    margin: 2%;
+    align-items: left!important;
+    width: 8%;
+    height: 8%;
+}
+.commentlistContent{
+    font-size:20px!important;
+    color: black;
+}
+.commentlistContentName{
+    display: flex;
+    flex-direction: column;
+    align-items: left!important;
+    margin: 2.5%;
+}
+p{
+    float: left!important;
+    text-align: left!important;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 50px;
+    margin-inline-end: 40px;
+}
+.w3-left{
+    float: left!important;
+    text-align: justify!important;
+    color: #000!important;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 1.5;
+    border: gainsboro;
+}
+.w3-right{
+    float: right!important;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: justify!important;
+    color: #000!important;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Open Sans";
+}
+.w3-mid{
+    flex: 3;
+    display: flex;
+    align-self: right;
+}
+.likeButton{
+    color: #000!important;
+    background-color: #fff!important;
+    user-select: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: none;
+    margin: 0;
+    border-color: lightgrey;
+}
+.repliesButton{
+    color: #fff!important;
+    background-color: #000!important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: none;
+    margin: 0;
+    border-color: lightgrey;
+    margin-inline-start: 0px;
+    margin-inline-end: 40px;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+}
+.white{
+    background-color: #fff;
+    color: #000;
+    padding: 1px 8px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: none;
+    margin: 0;
+    border-color: lightgrey;
+}
+.commentContent{
+    background-color: white;
+    border: 1px solid black;
+    margin: px;
+    height: 50%;
+    width: 93%;
+    padding-bottom: 5px;
+    padding-top: px;
+    font-family: "Open Sans";
+    font-size: 10px; 
+    color: white;
+}
+.commentItem{
+    display: flex;
+    flex-direction: row;
+    align-items: left!important;
+    margin-left: 2%!important;
+}
+.w3-clear{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    align-items: left!important;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-color: #000;
+  }
+  .row{
+      align-items: left!important;
+  }
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }

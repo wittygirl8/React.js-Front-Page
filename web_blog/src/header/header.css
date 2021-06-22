@@ -1,0 +1,82 @@
+.header{
+    margin-top: 60;
+}
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald','Open Sans';
+    color: black;
+    margin-bottom: 10%;
+}
+.headerTitleSn{
+    position: absolute;
+    top: 15%;
+    font-size: 45px;
+}
+.headerTitleLg{
+    position: absolute;
+    top: 25%;
+    font-size: 15px;
+}
+.headerTitleIn{
+    background-color: black;
+    color: aliceblue;
+}
+.headerMains{
+    background-color: black;
+    top: 50%;
+    margin-top: 60;
+}
+.headerMainSn{
+    position: absolute;
+    top: 90%;
+    margin-left: 10%;
+    font-size: 55px;
+    font-family: Oswald;
+    color: aliceblue;
+}
+.headerMainLg{
+    position: absolute;
+    top: 100%;
+    margin-left: 10%;
+    font-size: 100px;
+    font-family: Oswald;
+    color: aliceblue;
+}
+.btn{
+    color: #000!important;
+    position: absolute;
+    top: 120%;
+    padding: 15px 20px;
+    margin-left: 10%;
+    background-color:white;
+    opacity: 0.5;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 15px;
+    color: black;
+    border-radius: 3px;
+}
+.likeButton{
+    color: #000!important;
+    background-color: #fff!important;
+    user-select: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: none;
+    margin: 0;
+    border-color: lightgrey;
+}
+.headerImg{
+    width: 100%;
+    height: 450%;
+    margin-top: 150px;
+    object-fit: cover;
+}
